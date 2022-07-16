@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            java sript
+        </title>
+        <Style>
+        </Style>
+    </Head>
+    <Body>
+        
+        <H1>შეავსეთ ანკეტა</H1>
+<FORM NAME="Sel1">
+    <!-- anketa -->
+    <TABLE>
+        <TR><TD><B>გვარი:<B></TD>
+            <TD><INPUT NAME="Family" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+        <TR><TD><B>სახელი:<B></TD>
+            <TD><INPUT NAME="Name" SIZE=20
+                  onBlur="this.value=this.value.toUpperCase()"></TD></TR>
+        <TR><TD><B>ასაკი:<B></TD>
+            <TD><INPUT NAME="Age" SIZE=3 VALUE="#"
+                  onBlur="this.value=CheckAge(this.value)"
+                  onFocus="this.select()"></TD></TR>
+        <TR><TD><B>ტელეფონი:<B></TD>
+            <TD><INPUT NAME="Phone" SIZE=10></TD></TR>
+    </TABLE>
+    <!-- buttons -->
+    <INPUT TYPE="button" VALUE="მზად არის" onClick="Complete();">
+    <INPUT TYPE="reset" VALUE="რესეტი">
+</FORM>
+
+
+
+    
+        <script src="js.js">
+             
+        </script>
+<!--<input type=’text’ name=”education” placeholder=”განათლება”-->
+
+<INPUT type="button" value="Add Row" onclick="addRow('dataTable')" />
+
+	<INPUT type="button" value="Delete Row" onclick="deleteRow('dataTable')" />
+
+	<TABLE id="dataTable" width="350px" border="1">
+		<TR>
+			<TD><INPUT type="checkbox" name="chk"/></TD>
+			<TD><INPUT type="text" name="txt"/></TD>
+			<TD>
+				<SELECT name="country">
+					<OPTION value="in">GEORGIA</OPTION>
+					<OPTION value="de">Germany</OPTION>
+					<OPTION value="fr">France</OPTION>
+					<OPTION value="us">United States</OPTION>
+					<OPTION value="ch">AUSTRIA</OPTION>
+				</SELECT>
+			</TD>
+		</TR>
+	</TABLE>  
+    </Body>
+</html>
+
+
+

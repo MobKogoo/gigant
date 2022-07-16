@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width:1140px; 
+    margin:auto;
+    width: 100%;
+  }
+  /* header */
+
+  .header-gray {
+    background-color: #fffbfa;
+    padding: 10px;
+    height:30%;
+    width: 100%;
+
+  }
+
+  .header-one {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height:90px;
+    width: 100%;
+    flex-direction:row;
+    align-self: center;
+    align-content: center;
+    
+  }
+
+  .header-one__logo {
+    height: 100px;
+  }
+.header-two__content{
+  width: 50%;
+  flex-direction:row;
+}
+.header-two__list {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    
+}
+
+.contacts
+    { width: 20%;}
+
+  .header-two {
+    display: flex;
+    justify-content: space-between;
+    Font-family:  "BPG ExtraSquare Mtavruli";
+    width: 50%;
+  }
+
+  .header-two__item {
+    display: inline-block;
+    margin-right: 18px;
+    padding-top: 5%;
+  }
+
+  .header-two__link {
+    text-decoration: none;
+    color: #272626;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .header-two__link:hover {
+    color: black;
+    font-weight: bold;
+    box-shadow: 10px 10px 5px rgba(107, 69, 69, 0.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .header-white {
+    padding: 20px;
+  }
+   
+  .img{
+    width: 100%;
+    background: url(img/banner.png) no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position:center;
+}
+
+
+  /* button and text */
+
+  .main 
+  {
+    font-size: 25px;
+    width: 50%;
+    display: block;
+    padding-top: 25px;
+    height:350px;
+    padding-left: 470px;
+
+  }
+
+  
+  .main-content p
+  {
+    display: block;
+  }
+  .main-content a
+  {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+  }
+
+  .mainBoxOneHeader 
+  {
+    font-weight: bold;
+    justify-content: center;
+    width: 70%;
+    
+  }
+  .mainBoxTwotext
+  {
+    flex-direction:column;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    text-align: center;
+    width: 70%;
+
+  }
+
+  .BoxOneBtn {
+    color: white;
+    background-color: #817c78;
+    padding:top 15px bottom 15px; 
+    padding: left 40px right 40px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 7px;
+    height: 25px;
+  
+  }
+  .readmore{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 30px;
+    
+  }
+  .BoxOneBtn:hover {
+    border-radius: 15px;
+    background-color: black;
+    transition-delay:0.5s;
+    
+  }
+
+p{
+    font-size: 18px; color: #7E8081;
+}
+
+a 
+{
+  font-size:18px; color: #000000
+}
+
+.infoBoxHeader
+
+{
+    font-size: 30px;
+}
+
+.we
+{
+    font-weight: 600;
+    color: black;
+    display:flex;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+/*servis*/
+
+.service {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(126, 114, 114);
+    margin-top: -4px;
+    text-decoration: none;
+    
+  }
+  
+  .servisBox {
+    width: 30%;
+    background-color: #f6f5f4;
+    display:inline-block;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+    padding: 20px;
+  }
+  .servisBox:hover {
+    border-radius: 15px;
+    background-color: rgb(210, 140, 223);
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+    transform: rotateY(360deg);
+    transition-delay:1s;
+    }
+ 
+  .servisBoxImg
+  {
+    width: 70px;
+  }
+
+  /* social */
+
+.social
+ {
+    margin-top: 40px;
+    margin-bottom: 10px;
+   
+  }
+
+  .socialContent
+   {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+  }
+
+  .socialLinks 
+  {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  /*footer*/
+
+  .footer
+  {
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+      height:80px;
+      
+  }
+
+  footer 
+  {
+    background-color: #fffdfd;
+    border-top: double black;
+    margin-top: 20px;
+    
+  } 
+  
+  .footer
+   {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footerPar
+   {
+    color: rgba(42, 47, 11, 0.575); 
+    margin-top: 40px;
+    
+  }
+
+  .footerLink
+   {
+    color: #677faa;
+    text-decoration: none;
+  }
+
+  .socialContent
+   {
+    Width:100%;
+    height:80px;
+    
+  }
+  
